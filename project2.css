@@ -1,0 +1,564 @@
+* {
+    /* padding: 0;
+    margin: 0;
+    box-sizing: border-box; */
+    font-family: "poppins", sans-serif;
+}
+body{
+    background-color: #fffaf0;
+}
+
+/* page1-css-sart */
+.section1 {
+    position: relative;
+    background-image: linear-gradient(rgba(49, 28, 15, 0.9), rgba(49, 28, 15, 0.9)), url(images/carousel-1.jpg);
+    height: 700px;
+    background-size: cover;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .ait {
+    font-size: 45px;
+    margin: 30px;
+    color: white;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    margin-right: 50px;
+    font-size: 25px;
+    list-style: none;
+    color: white;
+}
+
+.section1 select {
+    border-style: none;
+    font-size: 25px;
+    color: white;
+    background: transparent;
+}
+
+.section1 .div-1 {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.section1 .we-have {
+    position: absolute;
+    font-size: 30px;
+    color: chocolate;
+    left: 615px;
+    bottom: 350px;
+}
+
+.section1 h1 {
+    position: absolute;
+    font-size: 95px;
+    color: white;
+    margin-top: 18px;
+    left: 412px;
+}
+
+.section1 h3 {
+    position: absolute;
+    font-size: 25px;
+    color: chocolate;
+    bottom: 183px;
+    left: 710px;
+}
+
+/* page1-css-end */
+
+/* page2-css-starts */
+.section2 {
+    position: relative;
+    background-color: white;
+    height: 700px;
+    background-color: #fffaf0;
+}
+
+.border-img {
+    position: relative;
+    bottom: 57px;
+    width: 100%;
+    height: 60px;
+}
+
+.section2-1 {
+    display: flex;
+}
+
+.about-us {
+    position: absolute;
+    left: 700px;
+    top: 30px;
+    font-size: 25px;
+    color: chocolate;
+}
+
+.training {
+    position: absolute;
+    left: 610px;
+    top: 65px;
+    font-size: 35px;
+}
+
+.div-2 {
+    position: relative;
+    top: 130px;
+    left: 35px;
+    font-size: 20px;
+}
+
+.story {
+    font-size: 35px;
+}
+
+.button1 {
+    background-color: darkred;
+    height: 35px;
+    width: 125px;
+    color: white;
+    border: none;
+}
+
+.para1 {
+    justify-content: center;
+    opacity: 0.6;
+    font-size: 17px;
+}
+
+.tea-cup {
+    height: 400px;
+    position: relative;
+    top: 150px;
+}
+
+.div-3 {
+    position: relative;
+    top: 130px;
+    font-size: 20px;
+}
+
+.div-3 h4 {
+    font-size: 35px;
+}
+
+.div-3 p {
+    opacity: 0.5;
+}
+
+.div-3 ul {
+    list-style: square;
+    line-height: 30px;
+}
+
+.div-3 button {
+    height: 35px;
+    width: 125px;
+    background-color: chocolate;
+    color: white;
+    border: none;
+}
+
+/* page2-css-ends */
+
+/* page3-css-starts */
+.section3 {
+    position: relative;
+}
+
+.our {
+    text-align: center;
+    color: chocolate;
+}
+
+.section3 h2 {
+    text-align: center;
+}
+
+figure {
+    position: relative;
+}
+
+.section3 img {
+    width: 250px;
+    height: 250px;
+}
+
+.section3 .fa-solid {
+    font-size: 20px;
+    background-color: chocolate;
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 50%
+}
+
+.section3 figcaption {
+    position: relative;
+}
+
+.fresh {
+    font-size: 40px;
+}
+
+figcaption {
+    position: relative;
+
+}
+
+figcaption h4 {
+    position: absolute;
+    bottom: 173px;
+    left: 49px;
+    font-size: 18px;
+}
+
+figure {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.figure {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+figcaption {
+    margin-left: 28px;
+    margin-top: 22px;
+}
+
+/* page3-css-ends */
+
+/* page4-css-starts */
+
+.section4 {
+    position: relative;
+    background-image: linear-gradient(rgba(49, 28, 15, 0.9), rgba(49, 28, 15, 0.9)), url(images/bg.jpg);
+    color: white;
+    height: 600px;
+}
+
+.section4 #crack {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+}
+
+.off {
+    position: absolute;
+    top: 120px;
+    left: 615px;
+    font-size: 70px;
+    color: sandybrown;
+}
+
+.sunday {
+    position: absolute;
+    top: 220px;
+    left: 558px;
+    font-size: 40px;
+    /* color: sandybrown; */
+}
+
+.only {
+    position: absolute;
+    bottom: 215px;
+    left: 500px;
+    font-size: 25px;
+}
+
+.section4 input {
+    position: absolute;
+    bottom: 145px;
+    left: 580px;
+    width: 155px;
+    height: 30px;
+    padding: 10px;
+    border: none;
+}
+
+.section4 button {
+    position: absolute;
+    bottom: 145px;
+    left: 755px;
+    width: 155px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: sandybrown;
+}
+
+#crack2 {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0px;
+}
+
+/* page4-css-ends */
+/* page5-css-starts. */
+.section5 {
+    /* background-color:rgb(151, 134, 103); */
+}
+
+.section5 h3 {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 25px;
+    color: chocolate;
+}
+
+.section5 h2 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;/
+}
+
+.coffee {
+    display: flex;
+    position: relative;
+}
+
+#coldcoffee {
+    margin-left: 70px;
+    font-size: 50px;
+}
+
+#hotcoffee {
+    margin-left: 70px;
+    font-size: 50px;
+}
+
+.section5 img {
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+}
+
+.section5 h5 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.section5 figcaption p {
+    position: relative;
+    bottom: 35px;
+}
+
+.section5 span {
+    position: absolute;
+    right: 490px;
+    bottom: 126px;
+    background-color: chocolate;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.section5 hr {
+    width: 50%;
+    margin-bottom: 1px;
+}
+
+/* page5-css-starts. */
+
+/* page6-css-starts. */
+.section6 {
+    position: relative;
+    display: flex;
+    width: 90%;
+    margin-left: 80px;
+    background-image: linear-gradient(hsla(24, 39%, 38%, 0.9), rgba(180, 119, 82, 0.9)), url(images/bg.jpg);
+    justify-content: space-around;
+    height: 700px;
+}
+
+.section6 h3 {
+    font-size: 90px;
+    color: chocolate;
+    /* margin-left: 50px; */
+    font-weight: 800;
+}
+
+.section6 h4 {
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    /* margin-left: 58px; */
+    margin-top: 10px;
+    top: 200px;
+}
+
+.section6 h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.section6 p {
+    color: white;
+    font-size: 20px;
+}
+
+.section6 input {
+    width: 450px;
+    height: 25px;
+    padding: 15px;
+    background: transparent;
+    border: 1px solid chocolate;
+    color: gray;
+
+
+}
+
+.section6 ul {
+    color: white;
+    position: absolute;
+    left: -18px;
+    list-style: square;
+    font-size: 20px;
+
+}
+
+.section6 button {
+    width: 482px;
+    height: 62px;
+    padding: 15px;
+    background-color: chocolate;
+    border: none;
+    cursor: pointer;
+}
+
+.table {
+    position: relative;
+    top: 70px;
+    height: 530px;
+    width: 550px;
+    background-color: #420e0e5c;
+    padding: 20px;
+}
+
+.online {
+    position: relative;
+    top: 50px;
+}
+
+.section6 img {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+}
+
+.section6 .crack-bottom {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    bottom: 0px;
+}
+
+/* page6-css-ends. */
+
+/* page7-css-starts */
+.section7 {
+    position: relative;
+    height: 500px;
+}
+
+.section7 .clints {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+}
+
+.section7 img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+.section7 p {
+    position: absolute;
+    top: 95px;
+    left: 0px;
+}
+
+.section7 h3 {
+    text-align: center;
+    color: chocolate;
+    margin-top: 100px;
+}
+
+.section7 .clint_says {
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.section7 h4 {
+    position: absolute;
+    left: -100px;
+    top: -40px;
+}
+
+.section7 h5 {
+    position: absolute;
+    left: -100px;
+    top: 18px;
+    font-size: 18px;
+}
+
+.section7 img {
+    position: absolute;
+    left: 0px;
+}
+
+footer {
+    position: relative;
+    height: 200px;
+    padding: 80px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-image: linear-gradient(rgba(49, 28, 15, 0.9), rgba(49, 28, 15, 0.9)), url(images/bg.jpg);
+}
+
+.footer2 .fa-brands {
+    font-size: 25px;
+    border: 1px solid;
+    padding: 8px;
+
+}
+
+footer img {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+}
+
+footer input {
+    height: 7px;
+    padding: 15px;
+}
+
+footer button {
+
+    height: 40px;
+    margin-left: -5px;
+    width: 100px;
+    font-size: 15px;
+    background-color: chocolate;
+    border: none;
+    cursor: pointer;
+}
+
+/* page7-css-ends */
